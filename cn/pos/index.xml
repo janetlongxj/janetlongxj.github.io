@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pos on 龙雪娇的主页</title>
+    <link>https://space-of-lxj.github.io/hugo-brewm/cn/pos/</link>
+    <description>Recent Posts in Pos on 龙雪娇的主页</description>
+    <generator>Hugo 0.145.0</generator>
+    <language>zh-CN</language>
+    <managingEditor>janetlongxj</managingEditor>
+    
+      <webMaster>janetlongxj</webMaster>
+    <lastBuildDate>Tue, 11 Nov 2025 00:08:22 -0500</lastBuildDate>
+    <atom:link href="https://space-of-lxj.github.io/hugo-brewm/cn/pos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengatur Entri `Terms`</title>
+      <link>https://space-of-lxj.github.io/hugo-brewm/cn/pos/mengatur-entri-terms/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://space-of-lxj.github.io/hugo-brewm/cn/pos/mengatur-entri-terms/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Menambahkan Diskusi</title>
+      <link>https://space-of-lxj.github.io/hugo-brewm/cn/pos/mengatur-diskusi/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://space-of-lxj.github.io/hugo-brewm/cn/pos/mengatur-diskusi/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Tes Markdown</title>
+      <link>https://space-of-lxj.github.io/hugo-brewm/cn/pos/tes-markdown/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://space-of-lxj.github.io/hugo-brewm/cn/pos/tes-markdown/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>
