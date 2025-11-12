@@ -1,0 +1,13 @@
+/* cover the default background */
+body {
+  background-color: #f5f5f5 !important; /* grey */
+  background-image: none !important; /* remove possible background picture */
+}
+
+/* 可选：调整内容区域背景（使其与页面背景区分） */
+.main-content {
+  background-color: white; /* 内容区白色背景 */
+  padding: 2rem; /* 增加内边距，增强视觉效果 */
+  border-radius: 8px; /* 圆角边框 */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* 轻微阴影 */
+}
