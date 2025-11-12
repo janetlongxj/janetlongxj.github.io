@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Space of Xuejiao L.</title>
-    <link>https://space-of-lxj.github.io/hugo-brewm/en/series/</link>
+    <link>https://janetlongxj.github.io/en/series/</link>
     <description>Recent Posts in Series on Space of Xuejiao L.</description>
     <generator>Hugo 0.145.0</generator>
     <language>en-CA</language>
     <managingEditor>janetlongxj</managingEditor>
     
       <webMaster>janetlongxj</webMaster>
-    <lastBuildDate>Tue, 11 Nov 2025 22:45:58 -0500</lastBuildDate>
-    <atom:link href="https://space-of-lxj.github.io/hugo-brewm/en/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Nov 2025 23:14:33 -0500</lastBuildDate>
+    <atom:link href="https://janetlongxj.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
