@@ -2,41 +2,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://janetlongxj.github.io/en/foodie/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/foodie/baby/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/foodie/" />
+  </url>
+  <url>
+    <loc>https://janetlongxj.github.io/en/foodie/baby/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/foodie/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/foodie/baby/" />
+  </url>
+  <url>
     <loc>https://janetlongxj.github.io/en/engineering/tunnel/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/tunnel/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/master-thesis/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/master-thesis/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/tunnel/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/master-thesis/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/master-thesis/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/tunnel/" />
   </url>
   <url>
     <loc>https://janetlongxj.github.io/en/engineering/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/tunnel/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/tunnel/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/master-thesis/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/master-thesis/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/tunnel/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/tunnel/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/master-thesis/" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/engineering/master-thesis/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/engineering/" />
   </url>
   <url>
     <loc>https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/baby/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/art-hive/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" />
   </url>
   <url>
     <loc>https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/baby/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/art-hive/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" />
   </url>
   <url>
     <loc>https://janetlongxj.github.io/en/leisure/ceramic-with-kai/</loc>
     <lastmod>2025-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/baby/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/art-hive/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" />
   </url>
   <url>
-    <loc>https://janetlongxj.github.io/en/leisure/baby/</loc>
-    <lastmod>2025-11-11T00:04:18-05:00</lastmod>
+    <loc>https://janetlongxj.github.io/en/leisure/art-hive/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/baby/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/art-hive/" />
   </url>
   <url>
     <loc>https://janetlongxj.github.io/en/engineering/master-thesis/</loc>
@@ -60,7 +73,7 @@
     <loc>https://janetlongxj.github.io/en/leisure/</loc>
     <lastmod>2025-11-11T00:04:18-05:00</lastmod>
     <changefreq>always</changefreq>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/baby/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-fall/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/ceramic-with-kai/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/art-hive/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/leisure/" />
   </url>
   <url>
@@ -87,11 +100,6 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://janetlongxj.github.io/cn/stage/_index.id/" /><xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/stage/" />
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://janetlongxj.github.io/en/stage/_index.id/" />
   </url>
-  <url>
-    <loc>https://janetlongxj.github.io/en/foodie/</loc>
-    
-    <changefreq>always</changefreq>
-    </url>
   <url>
     <loc>https://janetlongxj.github.io/en/stage/budding/_index.id/</loc>
     <lastmod>2025-10-02T23:34:35-04:00</lastmod>

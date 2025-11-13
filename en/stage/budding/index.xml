@@ -9,8 +9,17 @@
     <managingEditor>janetlongxj</managingEditor>
     
       <webMaster>janetlongxj</webMaster>
-    <lastBuildDate>Tue, 11 Nov 2025 23:32:25 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 00:23:05 -0500</lastBuildDate>
     <atom:link href="https://janetlongxj.github.io/en/stage/budding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mexican food in Denver</title>
+      <link>https://janetlongxj.github.io/en/foodie/baby/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/en/foodie/baby/</guid>
+      <description></description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Short_Rib_Tacos_-_20989146003.jpg/640px-Short_Rib_Tacos_-_20989146003.jpg" length="0" type="image/jpeg" />
+    </item>
     <item>
       <title>Colorado School of Mine training course</title>
       <link>https://janetlongxj.github.io/en/engineering/tunnel/</link>
@@ -36,7 +45,7 @@
       <author>janetlongxj</author>
       <guid>https://janetlongxj.github.io/en/leisure/ceramic-2025-summer/</guid>
       <description></description>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg" length="0" type="image/jpeg" />
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ceramic_exhibition_by_Studio_%D7%A6%D7%99%D7%95%D7%A0%D7%94-%D7%9C%D7%99_on_Harkavat_Street_in_Jerusalem.jpg/640px-Ceramic_exhibition_by_Studio_%D7%A6%D7%99%D7%95%D7%A0%D7%94-%D7%9C%D7%99_on_Harkavat_Street_in_Jerusalem.jpg" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Ceramic with Kai</title>
@@ -49,10 +58,10 @@
     </item>
     <item>
       <title>Art hive</title>
-      <link>https://janetlongxj.github.io/en/leisure/baby/</link>
+      <link>https://janetlongxj.github.io/en/leisure/art-hive/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       <author>janetlongxj</author>
-      <guid>https://janetlongxj.github.io/en/leisure/baby/</guid>
+      <guid>https://janetlongxj.github.io/en/leisure/art-hive/</guid>
       <description></description>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg" length="0" type="image/jpeg" />
     </item>

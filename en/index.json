@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "7cb491c438dabc6a961a3503f1c13aa9",
+                "title": "Mexican food in Denver",
+                "permalink": "https://janetlongxj.github.io/en/foodie/baby/",
+                "type": "post"
+            },{
                 "id": "4d5cdaa5b2e2b38c6dcd49fdb5b1494c",
                 "title": "Colorado School of Mine training course",
                 "permalink": "https://janetlongxj.github.io/en/engineering/tunnel/",
@@ -21,9 +26,9 @@
                 "permalink": "https://janetlongxj.github.io/en/leisure/ceramic-with-kai/",
                 "type": "post"
             },{
-                "id": "be6f813cc279fc1df0dfb18a77b458ab",
+                "id": "68f73a900939dd6f1b494d89ff984744",
                 "title": "Art hive",
-                "permalink": "https://janetlongxj.github.io/en/leisure/baby/",
+                "permalink": "https://janetlongxj.github.io/en/leisure/art-hive/",
                 "type": "post"
             },{
                 "id": "56882558281289a64cedf9193fc29251",
@@ -33,6 +38,7 @@
             },
     ],
     "links": [
+            
             
             
             
