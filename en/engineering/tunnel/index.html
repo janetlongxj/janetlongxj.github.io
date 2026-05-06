@@ -35,7 +35,7 @@
             defer></script><!-- css.html -->
 
 
-        <link rel="stylesheet" href="https://janetlongxj.github.io/css/hugo-brewm.min.css" integrity="sha256-8HDa3SgbypXji/p6dtcYOjm6xUmQ91o15NZ9P1Vr3xQ=" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://janetlongxj.github.io/css/hugo-brewm.min.css" integrity="sha256-tBQDekmrTWIVfzgaoVXDW4WWySUFvw2KxYNf&#43;nS1v6w=" crossorigin="anonymous">
 
 
 
@@ -48,6 +48,330 @@
     
 </head>
 <body>
+    <!-- Premium Intro Animation -->
+    <!-- intro-animation.html - Premium intro animation inspired by Shopify Editions -->
+<div id="intro-overlay">
+    <div class="intro-lines">
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,10 500,50 T1000,50" />
+        </svg>
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,90 500,50 T1000,50" />
+        </svg>
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,30 500,50 T1000,50" />
+        </svg>
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,70 500,50 T1000,50" />
+        </svg>
+    </div>
+    
+    <div class="intro-content">
+        <h1 class="intro-title">XUEJIAO L. ARCHIVE</h1>
+        <p class="intro-subtitle">Click anywhere to enter</p>
+    </div>
+</div>
+
+<style>
+ 
+#intro-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s cubic-bezier(0.65, 0, 0.35, 1),
+                visibility 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+#intro-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#intro-overlay.exit {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: transform 1.4s cubic-bezier(0.65, 0, 0.35, 1),
+                opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1),
+                visibility 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+ 
+.intro-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.intro-line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.intro-line:nth-child(1) {
+    top: 15%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 0.3s forwards;
+}
+
+.intro-line:nth-child(2) {
+    top: 35%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 0.6s forwards;
+}
+
+.intro-line:nth-child(3) {
+    top: 55%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 0.9s forwards;
+}
+
+.intro-line:nth-child(4) {
+    top: 75%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 1.2s forwards;
+}
+
+.intro-line-path {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.08);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    animation: lineFlow 8s ease-in-out infinite;
+}
+
+.intro-line:nth-child(2) .intro-line-path {
+    animation-delay: -2s;
+    stroke: rgba(255, 255, 255, 0.06);
+    stroke-width: 1;
+}
+
+.intro-line:nth-child(3) .intro-line-path {
+    animation-delay: -4s;
+    stroke: rgba(255, 255, 255, 0.07);
+    stroke-width: 1.2;
+}
+
+.intro-line:nth-child(4) .intro-line-path {
+    animation-delay: -6s;
+    stroke: rgba(255, 255, 255, 0.05);
+    stroke-width: 0.8;
+}
+
+ 
+.intro-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.95);
+    animation: contentFadeIn 1.5s cubic-bezier(0.65, 0, 0.35, 1) 0.5s forwards;
+}
+
+#intro-overlay.exit .intro-content {
+    transform: scale(0.9);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.65, 0, 0.35, 1),
+                opacity 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.intro-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.15),
+                 0 0 80px rgba(255, 255, 255, 0.05);
+    line-height: 1.4;
+}
+
+.intro-subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+ 
+@keyframes lineFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes lineFlow {
+    0%, 100% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: -100;
+    }
+}
+
+@keyframes contentFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+ 
+@media (max-width: 768px) {
+    .intro-title {
+        letter-spacing: 0.15em;
+    }
+    
+    .intro-subtitle {
+        letter-spacing: 0.2em;
+        margin-top: 1.5rem;
+    }
+    
+    .intro-line-path {
+        stroke-width: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-title {
+        letter-spacing: 0.1em;
+        font-size: 1.3rem;
+    }
+    
+    .intro-line {
+        opacity: 0.5;
+    }
+}
+
+ 
+@media (prefers-reduced-motion: reduce) {
+    .intro-line-path {
+        animation: none;
+    }
+    
+    .intro-content {
+        animation: none;
+        opacity: 1;
+    }
+    
+    .intro-line {
+        animation: none;
+        opacity: 1;
+    }
+    
+    .intro-subtitle {
+        animation: none;
+        opacity: 0.4;
+    }
+}
+</style>
+
+<script>
+(function() {
+    'use strict';
+    
+    const overlay = document.getElementById('intro-overlay');
+    if (!overlay) return;
+    
+    
+    const hasSeenIntro = sessionStorage.getItem('introSeen');
+    
+    if (hasSeenIntro) {
+        
+        overlay.style.display = 'none';
+        return;
+    }
+    
+    
+    function showIntro() {
+        
+        setTimeout(function() {
+            overlay.classList.add('active');
+        }, 100);
+    }
+    
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', showIntro);
+    } else {
+        showIntro();
+    }
+    
+    
+    let isExiting = false;
+    
+    function exitIntro(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        
+        if (isExiting) return;
+        isExiting = true;
+        
+        
+        sessionStorage.setItem('introSeen', 'true');
+        
+        
+        overlay.classList.add('exit');
+        
+        
+        setTimeout(function() {
+            overlay.style.display = 'none';
+            
+            document.dispatchEvent(new CustomEvent('introComplete'));
+        }, 1500);
+        
+        
+        document.removeEventListener('click', exitIntro);
+        document.removeEventListener('keydown', handleKey);
+    }
+    
+    function handleKey(event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+            exitIntro(event);
+        }
+    }
+    
+    
+    document.addEventListener('click', exitIntro);
+    document.addEventListener('keydown', handleKey);
+    
+})();
+</script>
     <!-- header.html -->
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true">
@@ -316,7 +640,7 @@
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
                 <div class="has-aria-label-top" aria-label="Colorado School of Mine training course"><span>https://janetlongxj.github.io/en/engineering/tunnel/</span></div>
-                <div><span>This page is built on: </span><time datetime="2026-02-28T14:36:10-05:00">2026-02-28 14:36</time></div>
+                <div><span>This page is built on: </span><time datetime="2026-05-06T00:02:37-04:00">2026-05-06 00:02</time></div>
                 <div><span>This page is accessed on: </span><time id="time-stamp"></time></div><div><span>Powered by </span><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <a href="https://github.com/gohugoio/hugo/releases/tag/v0.145.0" aria-label="Hugo 0.145.0" target="_blank" rel="noopener">v0.145.0</a> & <a href="https://github.com/foxihd/hugo-brewm" target="_blank" rel="noopener">hugo-brewm</a>.</div>
             </div>
         </div>

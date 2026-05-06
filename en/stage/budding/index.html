@@ -35,7 +35,7 @@
             defer></script><!-- css.html -->
 
 
-        <link rel="stylesheet" href="https://janetlongxj.github.io/css/hugo-brewm.min.css" integrity="sha256-8HDa3SgbypXji/p6dtcYOjm6xUmQ91o15NZ9P1Vr3xQ=" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://janetlongxj.github.io/css/hugo-brewm.min.css" integrity="sha256-tBQDekmrTWIVfzgaoVXDW4WWySUFvw2KxYNf&#43;nS1v6w=" crossorigin="anonymous">
 
 
 
@@ -48,6 +48,330 @@
     <!-- list.html [head] -->
 </head>
 <body>
+    <!-- Premium Intro Animation -->
+    <!-- intro-animation.html - Premium intro animation inspired by Shopify Editions -->
+<div id="intro-overlay">
+    <div class="intro-lines">
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,10 500,50 T1000,50" />
+        </svg>
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,90 500,50 T1000,50" />
+        </svg>
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,30 500,50 T1000,50" />
+        </svg>
+        <svg class="intro-line" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="intro-line-path" d="M0,50 Q250,70 500,50 T1000,50" />
+        </svg>
+    </div>
+    
+    <div class="intro-content">
+        <h1 class="intro-title">XUEJIAO L. ARCHIVE</h1>
+        <p class="intro-subtitle">Click anywhere to enter</p>
+    </div>
+</div>
+
+<style>
+ 
+#intro-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s cubic-bezier(0.65, 0, 0.35, 1),
+                visibility 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+#intro-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#intro-overlay.exit {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: transform 1.4s cubic-bezier(0.65, 0, 0.35, 1),
+                opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1),
+                visibility 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+ 
+.intro-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.intro-line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.intro-line:nth-child(1) {
+    top: 15%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 0.3s forwards;
+}
+
+.intro-line:nth-child(2) {
+    top: 35%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 0.6s forwards;
+}
+
+.intro-line:nth-child(3) {
+    top: 55%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 0.9s forwards;
+}
+
+.intro-line:nth-child(4) {
+    top: 75%;
+    animation: lineFadeIn 2s cubic-bezier(0.65, 0, 0.35, 1) 1.2s forwards;
+}
+
+.intro-line-path {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.08);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    animation: lineFlow 8s ease-in-out infinite;
+}
+
+.intro-line:nth-child(2) .intro-line-path {
+    animation-delay: -2s;
+    stroke: rgba(255, 255, 255, 0.06);
+    stroke-width: 1;
+}
+
+.intro-line:nth-child(3) .intro-line-path {
+    animation-delay: -4s;
+    stroke: rgba(255, 255, 255, 0.07);
+    stroke-width: 1.2;
+}
+
+.intro-line:nth-child(4) .intro-line-path {
+    animation-delay: -6s;
+    stroke: rgba(255, 255, 255, 0.05);
+    stroke-width: 0.8;
+}
+
+ 
+.intro-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.95);
+    animation: contentFadeIn 1.5s cubic-bezier(0.65, 0, 0.35, 1) 0.5s forwards;
+}
+
+#intro-overlay.exit .intro-content {
+    transform: scale(0.9);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.65, 0, 0.35, 1),
+                opacity 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.intro-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.15),
+                 0 0 80px rgba(255, 255, 255, 0.05);
+    line-height: 1.4;
+}
+
+.intro-subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+ 
+@keyframes lineFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes lineFlow {
+    0%, 100% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: -100;
+    }
+}
+
+@keyframes contentFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+ 
+@media (max-width: 768px) {
+    .intro-title {
+        letter-spacing: 0.15em;
+    }
+    
+    .intro-subtitle {
+        letter-spacing: 0.2em;
+        margin-top: 1.5rem;
+    }
+    
+    .intro-line-path {
+        stroke-width: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-title {
+        letter-spacing: 0.1em;
+        font-size: 1.3rem;
+    }
+    
+    .intro-line {
+        opacity: 0.5;
+    }
+}
+
+ 
+@media (prefers-reduced-motion: reduce) {
+    .intro-line-path {
+        animation: none;
+    }
+    
+    .intro-content {
+        animation: none;
+        opacity: 1;
+    }
+    
+    .intro-line {
+        animation: none;
+        opacity: 1;
+    }
+    
+    .intro-subtitle {
+        animation: none;
+        opacity: 0.4;
+    }
+}
+</style>
+
+<script>
+(function() {
+    'use strict';
+    
+    const overlay = document.getElementById('intro-overlay');
+    if (!overlay) return;
+    
+    
+    const hasSeenIntro = sessionStorage.getItem('introSeen');
+    
+    if (hasSeenIntro) {
+        
+        overlay.style.display = 'none';
+        return;
+    }
+    
+    
+    function showIntro() {
+        
+        setTimeout(function() {
+            overlay.classList.add('active');
+        }, 100);
+    }
+    
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', showIntro);
+    } else {
+        showIntro();
+    }
+    
+    
+    let isExiting = false;
+    
+    function exitIntro(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        
+        if (isExiting) return;
+        isExiting = true;
+        
+        
+        sessionStorage.setItem('introSeen', 'true');
+        
+        
+        overlay.classList.add('exit');
+        
+        
+        setTimeout(function() {
+            overlay.style.display = 'none';
+            
+            document.dispatchEvent(new CustomEvent('introComplete'));
+        }, 1500);
+        
+        
+        document.removeEventListener('click', exitIntro);
+        document.removeEventListener('keydown', handleKey);
+    }
+    
+    function handleKey(event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+            exitIntro(event);
+        }
+    }
+    
+    
+    document.addEventListener('click', exitIntro);
+    document.addEventListener('keydown', handleKey);
+    
+})();
+</script>
     <!-- header.html -->
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true">
@@ -273,7 +597,7 @@
         <a class="sri" href="/en/foodie/baby/" aria-label="Mexican food in Denver" aria-describedby="desc-1"></a>
         
         <section class="has-cover">
-                <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Short_Rib_Tacos_-_20989146003.jpg/640px-Short_Rib_Tacos_-_20989146003.jpg alt="I love taco" loading="lazy">
+                <img src=https://upload.wikimedia.org/wikipedia/commons/b/b5/01_Tacos_al_Pastor.jpg?utm_source&#61;commons.wikimedia.org&amp;utm_campaign&#61;index&amp;utm_content&#61;original alt="I love taco" loading="lazy">
             <div class="par" id="desc-1">travel and the food
             </div>
         </section>
@@ -347,7 +671,7 @@
         <a class="sri" href="/en/leisure/ceramic-2025-fall/" aria-label="Ceramic session -CELO 2025 Fall" aria-describedby="desc-3"></a>
         
         <section class="has-cover">
-                <img src=https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg alt="Cat named Cooper with styrofoam on his fur due to electrostatic charge." loading="lazy">
+                <img src=https://upload.wikimedia.org/wikipedia/commons/9/9e/Ceramic_3D_Printing_by_Studio_Under.jpg?utm_source&#61;commons.wikimedia.org&amp;utm_campaign&#61;index&amp;utm_content&#61;original alt="Cat named Cooper with styrofoam on his fur due to electrostatic charge." loading="lazy">
             <div class="par" id="desc-3">continue ceramic at CELO
             </div>
         </section>
@@ -384,7 +708,7 @@
         <a class="sri" href="/en/leisure/ceramic-2025-summer/" aria-label="Ceramic session -CELO 2025 Summer" aria-describedby="desc-4"></a>
         
         <section class="has-cover">
-                <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ceramic_exhibition_by_Studio_%D7%A6%D7%99%D7%95%D7%A0%D7%94-%D7%9C%D7%99_on_Harkavat_Street_in_Jerusalem.jpg/640px-Ceramic_exhibition_by_Studio_%D7%A6%D7%99%D7%95%D7%A0%D7%94-%D7%9C%D7%99_on_Harkavat_Street_in_Jerusalem.jpg alt="Ceramic is fun" loading="lazy">
+                <img src=https://upload.wikimedia.org/wikipedia/commons/5/54/Ceramic_3D_Printing_by_Studio_Under5.jpg?utm_source&#61;commons.wikimedia.org&amp;utm_campaign&#61;index&amp;utm_content&#61;original alt="Ceramic is fun" loading="lazy">
             <div class="par" id="desc-4">starting ceramic at CELO
             </div>
         </section>
@@ -458,7 +782,7 @@
         <a class="sri" href="/en/leisure/art-hive/" aria-label="Art hive" aria-describedby="desc-6"></a>
         
         <section class="has-cover">
-                <img src=https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg alt="Cat named Cooper with styrofoam on his fur due to electrostatic charge." loading="lazy">
+                <img src=https://upload.wikimedia.org/wikipedia/commons/5/54/Watercolor_painting_view_next_to_window.jpg?utm_source&#61;commons.wikimedia.org&amp;utm_campaign&#61;index&amp;utm_content&#61;original alt="Cat named Cooper with styrofoam on his fur due to electrostatic charge." loading="lazy">
             <div class="par" id="desc-6">Art hive is back
             </div>
         </section>

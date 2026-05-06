@@ -1,0 +1,122 @@
+/* Loading Animation - Minimal Top Progress Bar */
+/* This creates a smooth, elegant loading experience */
+
+#page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#page-loader.visible {
+    opacity: 1;
+}
+
+#page-loader .progress-bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        var(--ac-light, #36c) 25%,
+        var(--ac-dark, #fa0) 50%,
+        var(--ac-light, #36c) 75%,
+        transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: progressGradient 2s ease-in-out infinite;
+    transition: width 0.3s ease;
+}
+
+#page-loader.loaded .progress-bar {
+    width: 100%;
+    opacity: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+}
+
+@keyframes progressGradient {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Fade-in animation for page content */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply fade-in to main content after loader completes */
+body.loaded main {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Ensure smooth experience */
+body {
+    /* Prevent flash of unstyled content */
+    visibility: visible;
+}
+
+/* Loading overlay - optional full screen version */
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-light, #f9f9fb);
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#loading-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#loading-overlay .loader-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--fg-light, #111);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    #loading-overlay {
+        background: var(--bg-dark, #111);
+    }
+    
+    #loading-overlay .loader-text {
+        color: var(--fg-dark, #f9f9fb);
+    }
+}
