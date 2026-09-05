@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stage on Space of Xuejiao L.</title>
+    <link>https://janetlongxj.github.io/en/stage/</link>
+    <description>Recent Posts in Stage on Space of Xuejiao L.</description>
+    <generator>Hugo 0.141.0</generator>
+    <language>en-CA</language>
+    <managingEditor>janetlongxj</managingEditor>
+    
+      <webMaster>janetlongxj</webMaster>
+    <lastBuildDate>Sat, 05 Sep 2026 19:25:10 +0000</lastBuildDate>
+    <atom:link href="https://janetlongxj.github.io/en/stage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>budding</title>
+      <link>https://janetlongxj.github.io/en/stage/budding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/en/stage/budding/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>evergreen</title>
+      <link>https://janetlongxj.github.io/en/stage/evergreen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/en/stage/evergreen/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>seedling</title>
+      <link>https://janetlongxj.github.io/en/stage/seedling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/en/stage/seedling/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

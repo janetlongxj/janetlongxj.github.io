@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foodie on 龙雪娇的主页</title>
+    <link>https://janetlongxj.github.io/cn/foodie/</link>
+    <description>Recent Posts in Foodie on 龙雪娇的主页</description>
+    <generator>Hugo 0.141.0</generator>
+    <language>zh-CN</language>
+    <managingEditor>janetlongxj</managingEditor>
+    
+      <webMaster>janetlongxj</webMaster>
+    <lastBuildDate>Sat, 05 Sep 2026 19:25:10 +0000</lastBuildDate>
+    <atom:link href="https://janetlongxj.github.io/cn/foodie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>魁北克城美食探索</title>
+      <link>https://janetlongxj.github.io/cn/foodie/quebec-city/</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/cn/foodie/quebec-city/</guid>
+      <description>&lt;p&gt;Although you can find mouthwatering post from my instagram, this section will share my Fun story or review about food behind the photo.&lt;/p&gt;&#xA;&lt;p&gt;It is still under construction but I promise you will read them soon.&lt;/p&gt;</description>
+      
+    </item>
+    <item>
+      <title>Mexican food in Denver</title>
+      <link>https://janetlongxj.github.io/cn/foodie/baby/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/cn/foodie/baby/</guid>
+      <description>&lt;p&gt;Although you can find mouthwatering post from my instagram, this section will share my Fun story or review about food behind the photo.&lt;/p&gt;&#xA;&lt;p&gt;It is still under construction but I promise you will read them soon.&lt;/p&gt;</description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/b/b5/01_Tacos_al_Pastor.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

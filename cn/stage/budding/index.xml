@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Budding on 龙雪娇的主页</title>
+    <link>https://janetlongxj.github.io/cn/stage/budding/</link>
+    <description>Recent Posts in Budding on 龙雪娇的主页</description>
+    <generator>Hugo 0.141.0</generator>
+    <language>zh-CN</language>
+    <managingEditor>janetlongxj</managingEditor>
+    
+      <webMaster>janetlongxj</webMaster>
+    <lastBuildDate>Sat, 05 Sep 2026 19:25:10 +0000</lastBuildDate>
+    <atom:link href="https://janetlongxj.github.io/cn/stage/budding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>魁北克城美食探索</title>
+      <link>https://janetlongxj.github.io/cn/foodie/quebec-city/</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/cn/foodie/quebec-city/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Mexican food in Denver</title>
+      <link>https://janetlongxj.github.io/cn/foodie/baby/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/cn/foodie/baby/</guid>
+      <description></description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/b/b5/01_Tacos_al_Pastor.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>科罗拉多的裴旭</title>
+      <link>https://janetlongxj.github.io/cn/engineering/tunnel/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/cn/engineering/tunnel/</guid>
+      <description></description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/6/67/Dartford_Tunnel%2C_Right_Hand_Tunnel_Going_North_-_geograph.org.uk_-_4128862.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>研究生毕业论文</title>
+      <link>https://janetlongxj.github.io/cn/engineering/master-thesis/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      <author>janetlongxj</author>
+      <guid>https://janetlongxj.github.io/cn/engineering/master-thesis/</guid>
+      <description></description>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_and_styrofoam_%E2%80%93_electrostatic_charge_%28235112299%29.jpg" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
