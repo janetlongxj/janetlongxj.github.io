@@ -1,9 +1,14 @@
 
 {
     "nodes": [{
-                "id": "7cb491c438dabc6a961a3503f1c13aa9",
+                "id": "7b27b8ebccd883edca953658a4a76c8f",
+                "title": "Food Exploring in Quebec City",
+                "permalink": "https://janetlongxj.github.io/en/foodie/quebec-city/",
+                "type": "post"
+            },{
+                "id": "84756b7eacb7e3eb9ed10d7f31d1160b",
                 "title": "Mexican food in Denver",
-                "permalink": "https://janetlongxj.github.io/en/foodie/baby/",
+                "permalink": "https://janetlongxj.github.io/en/foodie/denver/",
                 "type": "post"
             },{
                 "id": "4d5cdaa5b2e2b38c6dcd49fdb5b1494c",
@@ -38,6 +43,7 @@
             },
     ],
     "links": [
+            
             
             
             
